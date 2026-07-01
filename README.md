@@ -3,13 +3,13 @@ Future_CS_03_API_SECURITY
 
 Overview
 
-This repository contains the deliverables for cyber security task 2 (2026) by the task involved performing a read-only API security analysis on the JSONPlaceholder API by identifying common risks and recommending remediation steps with the OWASP API security Top 10.
+This repository contains the deliverables for cyber security task 3 (2026) the task involved performing a read-only API security analysis on the JSONPlaceholder API by identifying common risks and recommending remediation steps with the OWASP API security Top 10.
 
 objectives
 
 1. Analyse demo/public API endpoints
 2. Identify security risks
-3. classify risk severity ( low/ meium/ high)
+3. classify risk severity ( low/ medium/ high)
 4. Explain business impact in clear language
 5. suggest actionable remediation steps
 6. document findings in a professional report
@@ -38,16 +38,16 @@ Deliverables
 
 Key Findings
 
-1.open endpoints - no authentication requied (High risk)
-2. Excessive data exposure - user emails and gwo coordinates (Medium risk)
+1.open endpoints - no authentication required (High risk)
+2. Excessive data exposure - user emails and geo coordinates (Medium risk)
 3. Broken access control - direct object access possible (High risk)
 4, Missing security headers - weak security controls (Low risk)
 
-Buisness impact
+Business impact
 
 1. privacy violation and phishing risks
 2. Location tracking and profiling threats
-3. Reduced customer yrust and reputational damage
+3. Reduced customer trust and reputational damage
 4. potential misuse of exposed data by malicious actors
 
 Recommendations
